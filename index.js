@@ -67,11 +67,8 @@ function appendItemToEndorsmentUl(item) {
     <h3>To ${itemValue.To}</h3>
     ${itemValue.EndorsmentText},
     <div class="endorsmentFooter">
-    <h3>From ${itemValue.From}</h3>,
-    <div class="counter">
-    <img src="assets/heart.png" class="heart">
-    <h3 class="count">${itemValue.Count}</h3>
-    </div>
+        <h3>From ${itemValue.From}</h3>,
+        <h3 class="count"> ❤️ ${itemValue.Count}</h3>
     </div>  
     
   `;
