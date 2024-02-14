@@ -1,0 +1,144 @@
+:root {
+  --dark-blue: #1b1924;
+  --blue-clear: #28a9f1;
+  --grey-blue: #444059;
+  --grey: #8f8f8f;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 100px;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 317px;
+}
+
+textarea {
+  background: var(--grey-blue);
+  color: var(--grey);
+  border-style: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 118px;
+  padding: 5px;
+  text-align: left;
+  font-size: 15px;
+}
+
+button {
+  border-radius: 10px;
+  background: var(--blue-clear);
+  color: var(--dark-blue);
+  height: 61px;
+  width: 100%;
+  padding: 5px;
+  color: white;
+  border-style: none;
+  font-weight: 900;
+}
+
+button:hover {
+  background-color: #80ed99;
+  color: var(--dark-blue);
+}
+
+#fromTo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+#From,
+#To {
+/*Box model stuff*/
+  width: 50%;
+  height: 30px;
+  padding: 5px;
+  border-style: none;
+  border-radius: 10px;
+  background: var(--grey-blue);
+/*Typography stuff*/
+  font-size: 15px;
+  text-align: center;
+  color: var(--grey);
+}
+
+textarea:hover,
+input:hover,
+button:hover {
+  box-shadow: 0px 0px 10px var(--blue-clear);
+}
+
+ul li {
+  background: #ffffff;
+  border-radius: 10px;
+  height: auto;
+  margin-left: -40px;
+  padding: 10px;
+  font-size: 12px;
+  color: var(--dark-blue);
+  width: 317px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+}
+
+h1 {
+  margin: 10px auto;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: -10px;
+}
+
+.heart {
+  width: 20px;
+  height: 20px;
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  margin-right: 5px;
+}
+
+.endorsmentFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
